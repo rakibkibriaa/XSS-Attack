@@ -2,7 +2,7 @@
 
 A study of stored Cross-Site Scripting (XSS) vulnerabilities using [SEED Labs'](https://seedsecuritylabs.org/) Elgg social networking platform. The project covers how XSS enables session hijacking, unauthorized HTTP requests from a victim's browser, and self-replicating JavaScript worms — all without the victim taking any deliberate action beyond visiting a page.
 
-The full write-up with screenshots of each step is in `1905098_Report.pdf`.
+The full write-up with screenshots of each step is in `Code/1905098_Report.pdf`.
 
 ## Background
 
@@ -69,13 +69,15 @@ The propagation guard is `user_guid != page_owner_guid && user_guid != 59`. Samy
 ## Repository layout
 
 ```
-1905098_Task_1.js                    # force friend-add via GET
-1905098_Task_2.js                    # profile modification via POST
-1905098_Task_3.js                    # wire post via POST
-1905098_Task_4.js                    # self-propagating worm (combines all three)
-1905098_Report.pdf                   # full write-up with network inspection screenshots
-XSSDemo.txt                          # environment setup notes and practice script snippets
-CSE_406_Web_Security_Assignment.pdf  # original problem spec
+├── Code/
+│   ├── 1905098_Task_1.js                   # force friend-add via GET
+│   ├── 1905098_Task_2.js                   # profile modification via POST
+│   ├── 1905098_Task_3.js                   # wire post via POST
+│   ├── 1905098_Task_4.js                   # self-propagating worm (combines all three)
+│   └── 1905098_Report.pdf                  # full write-up with network inspection screenshots
+├── CSE 406 Web Security Assignment.pdf     # original problem spec
+├── README.md
+└── XSSDemo.txt                             # environment setup notes and practice snippets
 ```
 
 ## Author
