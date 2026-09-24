@@ -2,7 +2,7 @@
 
 A study of stored Cross-Site Scripting (XSS) vulnerabilities using [SEED Labs'](https://seedsecuritylabs.org/) Elgg social networking platform. The project covers how XSS enables session hijacking, unauthorized HTTP requests from a victim's browser, and self-replicating JavaScript worms — all without the victim taking any deliberate action beyond visiting a page.
 
-The full write-up with screenshots of each step is in `1905098_Report.pdf`.
+The full write-up with screenshots of each step is in `Code/1905098_Report.pdf`.
 
 ## Background
 
